@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Kelham Island Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Calibri, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: linear-gradient(to right, #ff9933 0%, #666699 100%);
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 45px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #5c5c8a;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 22px 40px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 50%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+<img src="Logo2.jpg" alt="Trulli" width="430" height="178" align="right">
+<img src="Logo2.jpg" alt="Trulli" width="430" height="178" align="left">
+  <h1>Kelham Island Museum Website</h1>
+  <h3>Sheffield,UK</h3>
+  <h2>About Us Page</h2>       
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Date and Time</button>
+
+<p id="demo"></p>
+</div>
+
+<div class="navbar">
+  <a href="kelhamislandwebsite.html">Home</a>
+  <a href="kelhamislandaboutus.html">About Us</a>
+  <a href="kelhamislandmap.html">Map</a>
+  <a href="kelhamislandarscanapp.html">A.R Scan</a>    
+</div>
+
+  <div class="main">
+    <h2>Welcome to the Kelham Island Website</h2>
+    <h3>Kelham Island Gallery</h3>
+    <img src="kelhamislandinterior.jpg" alt="Trulli" width="475" height="333"> <img src="pictureinsidekim.jpg" alt="Trulli" width="475" height="333"> <img src="Littlemestersstreet.jpg" alt="Trulli" width="460" height="333"> <img src="kelhamislandmuseum.jpg" alt="Trulli" width="430" height="333"> <img src="madeinsheffield.jpg" alt="Trulli" width="475" height="333"> <img src="insidekim.jpg" alt="Trulli" width="440" height="333">  <img src="vintagecar.jpg" alt="Trulli" width="460" height="333"> <img src="toilet.jpg" alt="Trulli" width="440" height="333">       
+    
+    <h2>More information about Kelham Island Museum</h2>
+    <p>Kelham island Located in one of the city’s oldest industrial districts, the museum stands on a man-made island over 900 years old Kelham Island Museum was opened in 1982 to house the objects, pictures and archive material representing Sheffield’s industrial story. Our interactive galleries tell the story from light trades and skilled workmanship to mass production and what it was like to live and work in Sheffield during the Industrial Revolution. Follow the growth of the steel city through the Victorian Era and two world wars to see how steelmaking forged both the city of today and the world!</p>
+    <p>Kelham Island Museum was opened in 1982 to house the objects, pictures and archive material representing Sheffield's industrial story. 
+
+Come and explore the sights and sounds of industrial Sheffield. Wander through interactive galleries telling the city's story, from light trades and skilled workmanship to mass production.
+
+Learn what it was like to live and work in Sheffield during the Industrial Revolution and follow the growth of the city through the Victorian Era and two world wars, to see how steelmaking forged both the city of today and the world!
+
+<p>Located in one of the Sheffield's oldest industrial districts, the museum stands on a man-made island over 900 years old. It's also home to the mighty 12,000hp River Don Engine, the most powerful working steam engine in Europe, while outside you'll be greeted by one of the few remaining Bessemer Converters in the world!</p>
+
+<p>Sheffield Museums Trust is the independent charity that operates six of the city’s leading museums and heritage sites: Abbeydale Industrial Hamlet, Graves Gallery, Kelham Island Museum, Millennium Gallery, Shepherd Wheel and Weston Park Museum. Established in 2021, the charity cares for the city’s collections of art, human and industrial history, and natural science, alongside the Guild of St George’s John Ruskin collection and is home to the Ken Hawley Collection Trust’s Hawley Tool Collection.</p>
+
+<p>We work with our communities to tell the remarkable story of Sheffield and its people, and celebrate its reputation for excellence in craft, making and innovation. Together with local, regional and national partners, we showcase home-grown creative talent and bring outstanding cultural experiences to the city.</p>
+
+<div class="footer">
+  <h2>Contact Us</h2>
+<h2 style="font-family:calibri;">    
+<p><font size="3" color="black"> Sheffield Industrial Museums Trust </font>
+<p><font size="3" color="black"> Kelham Island Musuem </font>
+<p><font size="3" color="black"> Alma Street </font>
+<p><font size="3" color="black"> S3 8RY </font>
+<p><font size="3" color="black"> Sheffield,UK </font>
+<p><font size="3" color="black"> Telephone: 0114 272 2106 </font>
+<p><font size="3" color="black"> Email: ask@simt.co.uk </font>
+      </div>
