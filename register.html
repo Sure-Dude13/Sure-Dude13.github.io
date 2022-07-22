@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Litter Angels Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Calibri;
+  margin: 0;
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 21px 20px;
+  text-decoration: none;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+.side {
+  -ms-flex: 30%; /* IE10 */
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.main {  
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #00b3b3;
+}
+
+@media screen and (max-width: 700px) {
+  .row {  
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+<img src="Images/intelligent.jpg" alt="Trulli" width="400" height="80" align="right">
+<img src="Images/intelligent.jpg" alt="Trulli" width="400" height="80" align="left">
+<h1><u>Welcome to the Litter Angels Website</u></h1>
+<h2>Sheffield, United Kingdom</h2>
+<h3>Register Page</h3>    
+</div>
+
+<div class="navbar">
+  <a href="litterangelswebsite.html">Home Page</a>
+  <a href="aboutus.html">About Us</a>
+  <a href="participants.html">Participants</a>
+  <a href="getinvolved.html">Get involved</a>
+  <a href="followus.html">Follow Us</a>
+  <a href="map.html">Map</a>    
+  <a href="login.html" class="right">Log in</a>
+  <a href="register.html" class="right">Register</a>
+ 
+   
+</div>
+   
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Calibri, Helvetica, sans-serif;
+  background-color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 16px;
+  background-color: white;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+    
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+</style>
+<body>
+
+  <div class="container">
+      <h1><u>Registration Form</u></h1>
+      <h2><u>YOUR DETAILS</u></h2>
+    <h3>Please fill in this form to create an account once you have done this, you are then able to get access to your personalised dashboard.</h3>
+    <hr>
+
+    <label for="Username"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="Username" id="Username" required>
+   
+    <label for="E-mail address"><b>E-mail address</b></label>
+    <input type="text" placeholder="Enter E-mail Address" name="E-mail address" id="E-mail address" required>
+
+    <label for="Password"><b>Password</b></label>
+    <input type="Password" placeholder="Enter Password" name="Password" id="Password" required>
+
+    <label for="Confirm Password"><b>Confirm Password</b></label>
+    <input type="password" placeholder="Confirm Password" name="Confirm Password" id="Confirm Password" required>
+     
+    <label for="First Name"><b>First Name</b></label>
+    <input type="text" placeholder="Enter First Name" name="First Name" id="First Name" required>
+     
+    <label for="Last Name"><b>Last Name</b></label>
+    <input type="text" placeholder="Enter Last Name" name="Last Name" id="Last Name" required>
+     
+    <label for="Postcode"><b>Postcode</b></label>
+    <input type="text" placeholder="Enter Postcode" name="Postcode" id="Postcode" required>
+     
+    <label for="account type"><h4>Account Type</h4></label>
+    <select id="accounttype" name="Account Type">
+      <option value="General Public/Individual">General Public/Individual</option>
+      <option value="Community Group">Community Group</option>
+      <option value="Local Authority">Local Authority</option>
+      <option value="University">University</option>
+      <option value="Business">Business</option>
+    </select>
+      
+    <hr>
+    <p>By creating an account you agree to our <a href="termsandcondition.html">Terms and Conditions</a>.</p>
+
+    <button type="submit" class="registerbtn">Create a New Account</button>
+  </div>
+ 
+  <div class="container signin">
+    <p>Already have an account? <a href="login.html">Log in</a>.</p>
+  </div>
+   
+<div class="footer">
+<h2><u>Contact Us</u></h2>
+<h2 style="font-family:calibri;">
+<p><font size="3" color="black"> Name of company: Intelligent Than Dryers </font>
+<p><font size="3" color="black"> Phone Number: 07944277052 </font>
+<p><font size="3" color="black"> Telphone Number: 0114 354 0047 </font>
+<p><font size="3" color="black"> Address: 7 Riverside Court Don Road </font>
+<p><font size="3" color="black"> City: Sheffield,United Kingdom </font>
+<p><font size="3" color="black"> County: South Yorkshire </font>
+<p><font size="3" color="black"> Postcode: S9 2TJ </font>
+   
+<body>
+<html>
